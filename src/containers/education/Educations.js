@@ -14,8 +14,8 @@ class Educations extends Component {
         alt_name: "Moorpark College",
         duration: "2019 - Present",
         descriptions: [
-          "I have studied basic software engineering and physics subjects.",
-          "Apart from this, I have done extraccuricular courses on  and Full Stack Development.",
+          "I am studying basic software engineering and physics.",
+          "I have taken extraccuricular courses on Software and Full Stack Development.",
         ],
         website_link: "https://www.moorparkcollege.edu/",
       },
@@ -25,7 +25,7 @@ class Educations extends Component {
         <div className="educations-header-div">
           <Fade bottom duration={2000} distance="20px">
             <h1 className="educations-header" style={{ color: theme.text }}>
-              Degrees in Process
+              Degrees
             </h1>
           </Fade>
         </div>

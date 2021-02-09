@@ -13,7 +13,7 @@ class Experience extends Component {
         title: "Experience",
         subtitle: "Work and Internship",
         description:
-            "I have worked admist a range of evolving startups, community projects, and well established companies. I have also worked outside my field, however programming pertains to my true passion.",
+            "I have worked with a range of evolving startups, community projects, and well established companies. I also have experience outside my field, however programming continues to my true passion.",
         header_image_path: "experience.svg",
         sections: [
             {
@@ -26,7 +26,7 @@ class Experience extends Component {
                         logo_path: "/images/freelance.gif",
                         duration: "February 2019 - Present",
                         location: "Thousan Oaks, CA",
-                        description: "After being formally trained by Coding Dojo, and taking classes at Moorpark College, I have begun my prospective programming career. I have much to learn, and much to offer!",
+                        description: "After being formally trained by Coding Dojo, and taking classes at Moorpark College, I have begun my prospective programming career. I have much to offer, and always willing to learn.",
                         color: "#0879bf"
                     },
                     {
@@ -46,7 +46,7 @@ class Experience extends Component {
                         logo_path: "/images/sprouts.png",
                         duration: "March 2020 - Present",
                         location: "Thousan Oaks, CA",
-                        description: "This is a food distribution company. I worked as a sales associate during the covid-19 pandemic. This position strengthened my verbal and interpersonal communication skills, while harboring a friendly work enviroment.",
+                        description: "This is a food distribution company. I worked as a sales associate during the covid-19 pandemic. This position strengthened my verbal and interpersonal communication skills, while harboring a friendly work environment and providing excellent customer service.",
                         color: "#0879bf"
                     },
                     {
@@ -71,7 +71,7 @@ class Experience extends Component {
                         logo_path: "/images/drainsensei.png",
                         duration: "June 2019 - December 2019",
                         location: "Burbank, CA",
-                        description: "As rising startup, this project involved react native to easily lauch on both mobile platforms. Over the course of several weeks, I learned the language and implemented a front end for both users and professionals. The app serves two functions, to serve information to all users, and to connect users to professionals and vice-versa.",
+                        description: "As rising startup, this project involved react native to easily launch on both mobile platforms. Over the course of several weeks, I learned the language and implemented a front end for both users and professionals. The app serves two functions, to serve information to all users, and to connect users to professionals and vice-versa.",
                         color: "#0879bf"
                     }
                 ]

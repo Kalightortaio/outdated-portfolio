@@ -99,7 +99,7 @@ class SkillSection extends Component {
             title: "Team Oriented Practices",
             fileName: "SkillSVG3",
             skills: [
-                "Experience working on multiple cloud platforms and collaborative efforts",
+                "Experience with working on multiple cloud platforms and collaborative efforts",
                 "Hosting and maintaining websites on virtual machine instances along with integration of databases",
                 "Due diligence when making comments in code, handling version control, or debugging",
             ],
@@ -167,8 +167,8 @@ class SkillSection extends Component {
             fileName: "SkillSVG1",
             skills: [
                 "Holds a functionality over form design philosophy, that shapes the basis of many of my projects",
-                "Ability to pick up a new language, api, or skill fairly quickly.",
-                "Working towards my Bachelor degree in Computer Science",
+                "Ability to pick up a new language, api, or skill quickly.",
+                "Currently on the path of obtaining a Bachelor degree in Computer Science",
                 "Actively learning C++, OpenGL, and Tensorflow",
             ],
             softwareSkills: [
