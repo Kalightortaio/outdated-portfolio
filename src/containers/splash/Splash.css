@@ -1,0 +1,80 @@
+.main {
+    width: 90%;
+    padding: 20px 10px;
+    margin: 0px auto;
+    margin-top: 4rem;
+}
+.splash-main {
+    width: 90%;
+    padding: 20px 10px;
+    margin: 0px auto;
+    margin-top: 2rem;
+}
+.splash-main {
+    display: flex;
+}
+.splash-main>* {
+    flex: 1;
+    margin-bottom: 30px;
+}
+.button-splash-div {
+    display: flex;
+    margin-top: 20px;
+}
+.splash-text {
+    margin-top: 80px;
+    font-size: 70px;
+    line-height: 1.1;
+    font-family: "Google Sans Bold";
+}
+.splash-nickname {
+    font-size: 30px;
+    line-height: 0px;
+    font-family: "Google Sans Bold Italic";
+}
+.splash-text-p {
+    font-size: 40px;
+    line-height: 40px;
+    margin-right: 40px;
+    font-family: "Google Sans Medium";
+}
+.splash-image-div>* {
+    max-width: 100%;
+    height: auto;
+}
+@media (max-width: 1380px) {
+    .splash-text {
+        font-size: 50px;
+    }
+    .splash-text-p {
+        font-size: 20px;
+    }
+}
+@media (max-width: 768px) {
+    .button-splash-div {
+        justify-content: space-around;
+    }
+    .splash-text {
+        font-size: 30px;
+        margin-top: 0px;
+        text-align: center;
+    }
+    .splash-nickname {
+        font-size: 25px;
+        text-align: center;
+    }
+    .splash-text-p {
+        font-size: 16px;
+        margin-right: 0px;
+        line-height: normal;
+        text-align: center;
+    }
+    .splash-main {
+        display: block;
+    }
+    .portfolio-repo-btn-div {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
