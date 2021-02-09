@@ -40,7 +40,7 @@ export default function socialMedia(props) {
         },
         {
             name: "YouTube",
-            link: "https://www.youtube.com/channel/UC_amoXmmxSY9KusoDczDTXQ",
+            link: "https://www.youtube.com/channel/UCB-FuWOg37XdehNNSB19U0g",
             fontAwesomeIcon: "fa-youtube",
             backgroundColor: "#FF0000",
         },

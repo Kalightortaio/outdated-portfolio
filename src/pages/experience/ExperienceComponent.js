@@ -44,7 +44,7 @@ class Experience extends Component {
                         company: "Sprouts LLC",
                         company_url: "https://www.sprouts.com/",
                         logo_path: "/images/sprouts.png",
-                        duration: "March 2020 - February 2021",
+                        duration: "March 2020 - Present",
                         location: "Thousan Oaks, CA",
                         description: "This is a food distribution company. I worked as a sales associate during the covid-19 pandemic. This position strengthened my verbal and interpersonal communication skills, while harboring a friendly work enviroment.",
                         color: "#0879bf"

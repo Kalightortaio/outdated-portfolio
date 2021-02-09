@@ -11,8 +11,7 @@ import { Fade } from "react-reveal";
 class Education extends Component {
   render() {
     const theme = this.props.theme;
-    const certifiedSites = []
-    /* const certifiedSites = [
+    const certifiedSites = [
         {
         siteName: "HackerRank",
         iconifyClassname: "simple-icons:hackerrank",
@@ -21,7 +20,7 @@ class Education extends Component {
         },
         profileLink: "https://www.hackerrank.com/kalightortaio",
         },
-    ] */
+    ]
     return (
       <div className="education-main">
         <Header theme={this.props.theme} />

@@ -1,0 +1,25 @@
+.portal-main {
+    width: 100vw;
+    text-align: center;
+}
+.portal-main img {
+    display: block;
+    max-width: 100vw;
+}
+.container {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+.blog {
+    position: absolute;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 200%;
+    transform: rotate(30deg);
+    top: 26.5%;
+    left: 37%
+}
+.container a {
+    color: #000000;
+    text-decoration: none;
+}
