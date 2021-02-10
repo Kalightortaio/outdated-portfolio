@@ -102,7 +102,7 @@ class Contact extends Component {
                   className="contact-header-detail-text subTitle"
                   style={{ color: theme.secondaryText }}
                 >
-                    +1 80520886132
+                    +1 8052086132
                 </p>
                 <div className="address-btn-div">
                   <Button
