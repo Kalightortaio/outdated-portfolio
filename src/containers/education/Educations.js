@@ -15,7 +15,7 @@ class Educations extends Component {
         duration: "2019 - Present",
         descriptions: [
           "I am studying basic software engineering and physics.",
-          "I have taken extraccuricular courses on Software and Full Stack Development.",
+          "I have taken extracurricular courses on Software and Full Stack Development.",
         ],
         website_link: "https://www.moorparkcollege.edu/",
       },

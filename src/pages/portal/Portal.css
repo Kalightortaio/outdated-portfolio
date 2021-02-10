@@ -17,9 +17,30 @@
     font-size: 200%;
     transform: rotate(30deg);
     top: 26.5%;
-    left: 37%
+    left: 37%;
 }
 .container a {
     color: #000000;
     text-decoration: none;
+}
+@media (max-width: 1380px) {
+    .blog {
+        font-size: 200%;
+        top: 25.8%;
+        left: 37%;
+    }
+}
+@media (max-width: 768px) {
+    .blog {
+        font-size: 160%;
+        top: 25.6%;
+        left: 37%;
+    }
+}
+@media (max-width: 600px) {
+    .blog {
+        font-size: 140%;
+        top: 25.5%;
+        left: 37%;
+    }
 }

@@ -17,7 +17,7 @@ class Experience extends Component {
         header_image_path: "experience.svg",
         sections: [
             {
-                title: "Work",
+                title: "Employment History",
                 experiences: [
                     {
                         title: "Full Stack Developer",
@@ -50,6 +50,16 @@ class Experience extends Component {
                         color: "#0879bf"
                     },
                     {
+                        title: "React Native Developer",
+                        company: "Enterprise Beacon Inc.",
+                        company_url: "https://apps.apple.com/us/app/drain-sensei/id1538107952",
+                        logo_path: "/images/drainsensei.png",
+                        duration: "June 2019 - December 2019",
+                        location: "Burbank, CA",
+                        description: "As rising startup, this project involved react native to easily launch on both mobile platforms. Over the course of several weeks, I learned the language and implemented a front end for both users and professionals. The app serves two functions, to serve information to all users, and to connect users to professionals and vice-versa.",
+                        color: "#0879bf"
+                    },
+                    {
                         title: "Certified Technician",
                         company: "Staples Inc. LLC",
                         company_url: "https://www.staples.com/",
@@ -59,21 +69,6 @@ class Experience extends Component {
                         description: "This is a technology sales company. During my stay, I primarily completed selling and marketing, with an emphasis on technician duties. Here, I gained invaluable sales experience, alonside hardware and software familiarity across multiple operating systems and solutions.",
                         color: "#0879bf"
                     },
-                ]
-            },
-            {
-                title: "Internships",
-                experiences: [
-                    {
-                        title: "React Native Developer",
-                        company: "Enterprise Beacon Inc.",
-                        company_url: "https://apps.apple.com/us/app/drain-sensei/id1538107952",
-                        logo_path: "/images/drainsensei.png",
-                        duration: "June 2019 - December 2019",
-                        location: "Burbank, CA",
-                        description: "As rising startup, this project involved react native to easily launch on both mobile platforms. Over the course of several weeks, I learned the language and implemented a front end for both users and professionals. The app serves two functions, to serve information to all users, and to connect users to professionals and vice-versa.",
-                        color: "#0879bf"
-                    }
                 ]
             }
         ]

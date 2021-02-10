@@ -24,7 +24,7 @@ class SkillSection extends Component {
             title: "Full Stack Development",
             fileName: "SkillSVG2",
             skills: [
-                "Building responsive websites both dyanically and statically, in various languages.",
+                "Building responsive websites both dynamically and statically, in various languages.",
                 "Developing mobile applications using React Native, Ionic, and solo android apps using Java",
                 "Creating application backends in MEAN, Django & Sprint Boot",
             ],
