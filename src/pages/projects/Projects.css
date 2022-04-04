@@ -1,5 +1,6 @@
 .projects-main {
-    width: 100%;
+    width: calc(100vw - 20px);
+    max-width: 100%;
     text-align: center;
 }
 .basic-projects {
