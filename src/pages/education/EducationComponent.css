@@ -1,5 +1,7 @@
 .education-main {
-    width: 100vw;
+    width: calc(100vw - 20px);
+    max-width: 100%;
+    overflow-y: auto;
 }
 .basic-education {
     margin-left: 5%;

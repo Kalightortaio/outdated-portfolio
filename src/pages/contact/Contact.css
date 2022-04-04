@@ -1,5 +1,6 @@
 .contact-main {
-    width: 100vw;
+    width: calc(100vw - 20px);
+    max-width: 100%;
 }
 .basic-contact {
     margin-left: 5%;
@@ -25,6 +26,7 @@
     flex: 1;
 }
 .contact-heading-img-div {
+    vertical-align: middle;
     align-items: center;
     justify-content: center;
 }
@@ -34,16 +36,18 @@
 }
 .contact-heading-text-div {
     text-align: center;
+    margin-bottom: 10%;
 }
 .blog-heading-text-div {
     text-align: center;
 }
 .address-heading-text-div {
     text-align: center;
+    padding-top: 7vh;
 }
 .contact-heading-img-div>* {
     display: block;
-    max-width: 100%;
+    max-width: 75%;
     height: auto;
     margin: auto;
 }

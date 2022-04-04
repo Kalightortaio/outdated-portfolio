@@ -14,7 +14,7 @@ class DegreeCard extends Component {
               style={{
                 maxWidth: "100%",
                 maxHeight: "100%",
-                transform: "scale(50%, 50%)",
+                transform: "scale(110%, 110%)",
               }}
               src={process.env.PUBLIC_URL + `${degree.logo_path}`}
               alt={degree.alt_name}

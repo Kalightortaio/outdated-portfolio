@@ -84,13 +84,13 @@ class Contact extends Component {
                   className="address-heading-text"
                   style={{ color: theme.text }}
                 >
-                    Address
+                    Email
                 </h1>
                 <p
                   className="contact-header-detail-text subTitle"
                   style={{ color: theme.secondaryText }}
                 >
-                    669 New Los Angeles Avenue, Unit B, Moorpark, CA 93021
+                    kokataykrishna@gmail.com
                 </p>
                 <h1
                   className="address-heading-text"
@@ -102,13 +102,25 @@ class Contact extends Component {
                   className="contact-header-detail-text subTitle"
                   style={{ color: theme.secondaryText }}
                 >
-                    +1 8052086132
+                    (805) 208-6132
+                </p>
+                <h1
+                  className="address-heading-text"
+                  style={{ color: theme.text }}
+                >
+                    Address
+                </h1>
+                <p
+                  className="contact-header-detail-text subTitle"
+                  style={{ color: theme.secondaryText }}
+                >
+                    San Francisco Bay Area, California
                 </p>
                 <div className="address-btn-div">
                   <Button
                     text="Visit on Google Maps"
                     newTab={true}
-                    href="https://goo.gl/maps/iUEWW4M21Mz4QXRm7"
+                    href="https://www.google.com/maps/place/San+Francisco+Bay/@37.7172696,-122.2620379,11z/data=!4m5!3m4!1s0x808f9b5ea6210a07:0xa2950f4ff149c910!8m2!3d37.6909682!4d-122.3107517"
                     theme={theme}
                   />
                 </div>

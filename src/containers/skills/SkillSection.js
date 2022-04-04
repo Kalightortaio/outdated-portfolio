@@ -169,7 +169,7 @@ class SkillSection extends Component {
                 "Holds a functionality over form design philosophy, that shapes the basis of many of my projects",
                 "Ability to pick up a new language, api, or skill quickly.",
                 "Currently on the path of obtaining a Bachelor degree in Computer Science",
-                "Actively learning C++, OpenGL, and Tensorflow",
+                "Actively learning C++, and OpenGL",
             ],
             softwareSkills: [
                 {
@@ -189,13 +189,6 @@ class SkillSection extends Component {
                 {
                 skillName: "OpenGL",
                 fontAwesomeClassname: "logos-opengl",
-                style: {
-                    backgroundColor: "transparent",
-                },
-                },
-                {
-                skillName: "Tensorflow",
-                fontAwesomeClassname: "logos-tensorflow",
                 style: {
                     backgroundColor: "transparent",
                 },

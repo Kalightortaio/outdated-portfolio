@@ -3,7 +3,7 @@ import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import Educations from "../../containers/education/Educations";
 import Certifications from "../../containers/certifications/Certifications";
-import CertifiedSites from "../../components/certifiedSites/CertifiedSites";
+/* import CertifiedSites from "../../components/certifiedSites/CertifiedSites"; */
 import EducationSVG from "./EducationSVG";
 import "./EducationComponent.css";
 import { Fade } from "react-reveal";
@@ -11,7 +11,7 @@ import { Fade } from "react-reveal";
 class Education extends Component {
   render() {
     const theme = this.props.theme;
-    const certifiedSites = [
+    /* const certifiedSites = [
         {
         siteName: "HackerRank",
         iconifyClassname: "simple-icons:hackerrank",
@@ -20,7 +20,7 @@ class Education extends Component {
         },
         profileLink: "https://www.hackerrank.com/kalightortaio",
         },
-    ]
+    ] */
     return (
       <div className="education-main">
         <Header theme={this.props.theme} />

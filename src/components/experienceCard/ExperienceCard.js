@@ -8,7 +8,7 @@ class ExperienceCard extends Component {
     return (
       <div
         className="experience-card"
-        style={{ border: `1px solid ${experience["color"]}` }}
+        style={{ border: `2px solid ${experience["color"]}` }}
       >
         <div className="experience-card-logo-div">
           <img

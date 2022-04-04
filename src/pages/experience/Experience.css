@@ -1,5 +1,6 @@
 .experience-main {
-    width: 100vw;
+    width: calc(100vw - 20px);
+    max-width: 100%;
 }
 .basic-experience {
     margin-left: 5%;

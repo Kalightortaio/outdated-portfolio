@@ -1,0 +1,18 @@
+.experience-list {
+    margin: 50px;
+}
+.experience-list h1:first-child {
+    color: rgb(0, 28, 85);
+    margin-bottom: 24px;
+    margin-top: 10px;
+    margin-left: 12px;
+}
+.experience-card {
+    font-family: "Google Sans Regular";
+    width: 100%;
+}
+@media (max-width: 768px) {
+    .experience-list {
+        margin: 20px;
+    }
+}
