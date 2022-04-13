@@ -41,7 +41,7 @@ class Contact extends Component {
                   <Button
                     text="See My Resume"
                     newTab={true}
-                    href="https://docs.google.com/document/d/1K1Ae47HaYzbpXqa_Gacmz2c66KKUvzzJYbKUBdDW1Ug/edit?usp=sharing"
+                    href="https://docs.google.com/document/d/1n8CwRaAkKYZruRzkSozODBA3r4cCuYhe-PUEcQRbcA0/edit?usp=sharing"
                     theme={theme}
                   />
                 </div>
