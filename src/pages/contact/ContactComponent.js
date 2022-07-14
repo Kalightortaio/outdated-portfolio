@@ -34,7 +34,7 @@ class Contact extends Component {
                   className="contact-header-detail-text subTitle"
                   style={{ color: theme.secondaryText }}
                 >
-                    I am available on these social media accounts. You can message me, and I will reply within 24 hours. I can help you with development, inquiries, or bug reports.
+                    I am available on these points of contact. You can message me, and I will reply within 24 hours. I can help you with development, inquiries, or bug reports.
                 </p>
                 <SocialMedia theme={theme} />
                 <div className="resume-btn-div">
@@ -114,7 +114,7 @@ class Contact extends Component {
                   className="contact-header-detail-text subTitle"
                   style={{ color: theme.secondaryText }}
                 >
-                    San Francisco Bay Area, California
+                    San Francisco, California
                 </p>
                 <div className="address-btn-div">
                   <Button
