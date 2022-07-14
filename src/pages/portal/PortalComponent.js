@@ -22,7 +22,6 @@ class Portal extends Component {
                 </div>
             </div>
         </Fade>
-        <Footer theme={this.props.theme} />
       </div>
     );
   }
