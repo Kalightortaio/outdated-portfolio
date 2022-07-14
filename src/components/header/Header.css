@@ -3,6 +3,7 @@
     max-width: 90%;
     padding: 20px 10px;
     margin: 0px auto;
+    min-width: 360px;
 }
 .header ul {
     margin: 0;
