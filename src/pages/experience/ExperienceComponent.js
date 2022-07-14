@@ -20,13 +20,13 @@ class Experience extends Component {
                 title: "Employment History",
                 experiences: [
                     {
-                        title: "Self Employed Freelance",
-                        company: "Kalightortaio",
-                        company_url: "http://www.kalightortaio.com/",
-                        logo_path: "/images/freelance.gif",
-                        duration: "February 2019 - Present",
-                        location: "Oakland, CA",
-                        description: "I have begun my prospective programming career. I have much to offer, and always willing to learn.",
+                        title: "Full Stack Software Developer",
+                        company: "20 Ideas",
+                        company_url: "https://twentyideas.com/",
+                        logo_path: "/images/twentyi.png",
+                        duration: "April 2022 - July 2022",
+                        location: "Eugene, OR",
+                        description: "20 Ideas is a fast growing tech startup based out of Eugene, Oregon. This was an amazing opportunity to work alongside a team of fellow developers in a professional setting.",
                         color: "rgb(0, 28, 85)"
                     },
                     {
@@ -34,9 +34,9 @@ class Experience extends Component {
                         company: "Amazon Fresh",
                         company_url: "https://www.amazon.com/",
                         logo_path: "/images/amazon.png",
-                        duration: "January 2022 - Present",
+                        duration: "January 2022 - April 2022",
                         location: "Brisbane, CA",
-                        description: "Working for amazon has been honest work. Falling between neither retail or programming work, this job serves to keep the lights running.",
+                        description: "Working for amazon was honest work. Falling between neither retail or programming work, this job served to keep the lights running.",
                         color: "rgb(0, 28, 85)"
                     },
                     {
