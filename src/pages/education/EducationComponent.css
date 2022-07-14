@@ -53,6 +53,7 @@
     }
     .heading-sub-text {
         font-size: 20px;
+        margin-bottom: -4vh;
     }
     .heading-div {
         flex-direction: column;

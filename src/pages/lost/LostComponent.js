@@ -15,7 +15,6 @@ class Lost extends Component {
               
           </p>
           </div>
-          <Footer theme={this.props.theme} />
         </Fade>
       </div>
     );
