@@ -3,7 +3,13 @@
     font-weight: bold;
     font-family: "Google Sans Regular";
 }
-
+.footer-text>a {
+    text-decoration: none;
+    color: #001C55;
+}
+.footer-text>a:visited {
+    color: #001C55;
+}
 .footer-div {
     margin-top: 4rem;
     margin-bottom: 4rem;
