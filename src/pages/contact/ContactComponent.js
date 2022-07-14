@@ -52,7 +52,7 @@ class Contact extends Component {
             <div className="blog-heading-div">
               <div className="blog-heading-text-div">
                 <h1 className="blog-heading-text" style={{ color: theme.text }}>
-                    Blogs
+                    Blog
                 </h1>
                 <p
                   className="blog-header-detail-text subTitle"

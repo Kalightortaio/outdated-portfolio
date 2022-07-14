@@ -26,7 +26,7 @@
     flex: 1;
 }
 .contact-heading-img-div {
-    vertical-align: middle;
+    display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -35,25 +35,42 @@
     justify-content: center;
 }
 .contact-heading-text-div {
+    margin-bottom: 7vh;
+    display: flex;
     text-align: center;
-    margin-bottom: 10%;
+    flex-direction: column;
+    justify-content: center;
 }
 .blog-heading-text-div {
+    display: flex;
     text-align: center;
+    flex-direction: column;
+    justify-content: center;
 }
 .address-heading-text-div {
-    text-align: center;
     padding-top: 7vh;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
 }
-.contact-heading-img-div>* {
+.contact-heading-img-div>img {
     display: block;
-    max-width: 75%;
+    max-width: 80%;
+    min-width: 350px;
     height: auto;
     margin: auto;
 }
-.blog-heading-img-div>* {
+.contact-heading-img-div>svg {
+    display: block;
     max-width: 100%;
     height: auto;
+    margin: auto;
+}
+.blog-heading-img-div>svg {
+    max-width: 90%;
+    height: auto;
+    margin-left: 5vw;
 }
 .contact-heading-text {
     font-size: 56px;
@@ -72,7 +89,6 @@
     margin-top: 80px;
 }
 .address-heading-text {
-    margin-top: 40px;
     font-size: 30px;
     font-family: "Google Sans Regular";
     text-align: center;
@@ -82,8 +98,6 @@
     font-size: 20px;
     line-height: 30px;
     margin-top: 0px;
-    margin-left: 20px;
-    margin-right: 20px;
     font-family: "Google Sans Medium";
 }
 .blog-header-detail-text {
@@ -120,7 +134,15 @@
         margin-top: 40px;
     }
 }
+@media (max-width: 1000px) {
+    .contact-heading-text-div {
+        padding-left: 5vw;
+    }
+}
 @media (max-width: 768px) {
+    .contact-heading-text-div {
+        padding-left: 0px;
+    }
     .contact-heading-text {
         font-size: 30px;
         margin-top: 20px;
@@ -162,5 +184,10 @@
         margin-right: 0px;
         line-height: normal;
         text-align: center;
+    }
+    .contact-heading-img-div>img {
+        max-width: 300px;
+        width: 50%;
+        min-width: 180px !important;
     }
 }
