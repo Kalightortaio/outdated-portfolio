@@ -46,7 +46,7 @@ export default function socialMedia(props) {
         },
     ];
     return (
-    <div className="social-media-div">
+    <div className="smd">
         {socialMediaLinks.map((media) => {
         return (
             <a
