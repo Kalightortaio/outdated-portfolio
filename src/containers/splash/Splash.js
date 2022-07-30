@@ -23,7 +23,7 @@ export default function splash(props) {
                 className="splash-text-p subTitle"
                 style={{ color: theme.secondaryText }}
                 >
-                A passionate individual who is constantly seeking to learn and amass more experience, while commiting to dedicate their time into productivity and creativity.
+                A passionate individual who is constantly seeking to learn and amass more experience, while committing to dedicate their time into productivity and creativity.
                 </p>
                 <SocialMedia theme={theme} />
                 <div className="portfolio-repo-btn-div">
